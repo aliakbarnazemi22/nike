@@ -9,22 +9,22 @@ function AthleteSection() {
     {
       id: 1,
       title: "Alexia Putellas",
-      imageUrl: "/images/showProducts/Alexia-Putellas1.jpeg",
+      imageUrl: "images/showProducts/Alexia-Putellas1.jpeg",
     },
     {
       id: 2,
       title: "Catlin Clark",
-      imageUrl: "/images/showProducts/Catlin-Clark1.jpeg",
+      imageUrl: "images/showProducts/Catlin-Clark1.jpeg",
     },
     {
       id: 3,
       title: "Sabrina Ionescu",
-      imageUrl: "/images/showProducts/Sabrina-Ionescu1.jpeg",
+      imageUrl: "images/showProducts/Sabrina-Ionescu1.jpeg",
     },
     {
       id: 4,
       title: "ShaCarri Richardson",
-      imageUrl: "/images/showProducts/ShaCarri-Richardson1.jpeg",
+      imageUrl: "images/showProducts/ShaCarri-Richardson1.jpeg",
     },
   ];
 

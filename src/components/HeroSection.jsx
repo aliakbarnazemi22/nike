@@ -5,7 +5,7 @@ function HeroSection() {
     <section className="w-full h-auto">
       <a href="#">
         <img
-          src="/images/HeroSection/image.jpg"
+          src="images/HeroSection/image.jpg"
           className="lg:h-auto h-[500px] object-cover"
         />
       </a>

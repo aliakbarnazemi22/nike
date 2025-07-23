@@ -1,0 +1,76 @@
+@font-face {
+  font-family: Font-title;
+  src: url(../fonts/font.woff2);
+}
+
+.title {
+  font-family: Font-title;
+}
+
+html {
+  color-scheme: dark !important;
+  background-color: #1f1f21;
+}
+
+body {
+  font-family: "Helvetica Now Text Medium", Helvetica, Arial, sans-serif;
+}
+
+.header-link-btn {
+  padding: 5px;
+  border-radius: 50%;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.3;
+  cursor: pointer;
+}
+
+.header-link-btn svg path {
+  stroke: #ffffff;
+}
+
+.header-link-btn:hover {
+  background-color: #39393b;
+
+  > svg path {
+    stroke: #ffffff;
+  }
+}
+
+.custom-scroll-1::-webkit-scrollbar {
+  appearance: none;
+  width: 10px;
+  background-color: rgba(0,0,0,0.5);
+  border-radius: 4px;
+}
+
+.custom-scroll-1::-webkit-scrollbar-thumb {
+  background-color: grey;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.bg-category-1 {
+  background: url(../../../public/images/categories/clothing.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-category-2 {
+  background: url(../../../public/images/categories/shoes.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-category-3 {
+  background: url(../../../public/images/categories/accessories.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.swiper-custom-1 .swiper-scrollbar-drag {
+  background-color: #fff !important;
+  cursor: pointer;
+}

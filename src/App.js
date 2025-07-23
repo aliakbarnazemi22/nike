@@ -1,23 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import { useState } from "react";
+import "./App.css";
+import Header from "./components/Header";
+import HeroSection from "./components/HeroSection";
+import AthleteSection from "./components/AthleteSection";
+import WinCollection from "./components/WinCollection";
+import Category1 from "./components/Category1";
+import Category2 from "./components/Category2";
+import Footer from "./components/Footer";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Header />
+      <HeroSection />
+      <AthleteSection />
+      <WinCollection />
+      <Category1 />
+      <Category2 />
+      <Footer />
     </div>
   );
 }
